@@ -1,0 +1,123 @@
+.s-hero {
+  width: 100%;
+  padding-bottom: 12rem;
+  padding-top: 9.6rem;
+  background: url("./../img/bg-hero.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  .container {
+    display: flex;
+    align-items: center;
+    .box-text {
+      width: 100%;
+      max-width: 53.3rem;
+      span {
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: $yellow-color;
+        margin-bottom: 0.7rem;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 6.4rem;
+        line-height: 113.2%;
+        color: $white;
+        margin-bottom: 2.4rem;
+      }
+      p {
+        width: 100%;
+        max-width: 49.4rem;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 3.6rem;
+      }
+      .btns-hero {
+        display: flex;
+        align-items: center;
+        .btn-cta {
+          padding: 1.5rem 2.6rem 1.7rem;
+          height: 5.3rem;
+          background: #ffffff;
+          border-radius: 0.6rem;
+          color: $brand-color;
+          font-weight: 500;
+          font-size: 16px;
+          margin-right: 4rem;
+        }
+        .btn-talk {
+          display: flex;
+          align-items: center;
+          span {
+            margin-left: 1.6rem;
+            font-size: 1.6rem;
+            color: $white;
+          }
+        }
+      }
+    }
+    .image {
+      width: 100%;
+      max-width: 40.3rem;
+      height: 43.2rem;
+      position: relative;
+      .card-conexao {
+        position: absolute;
+        right: -5.2rem;
+        top: 10.8rem;
+      }
+      .text-peca-maquininha {
+        position: absolute;
+        right: -3.5rem;
+        bottom: 16.6rem;
+      }
+    }
+  }
+  .lateral {
+    position: absolute;
+    width: 288px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #00a3a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .arrow-lateral-up {
+      margin-bottom: 3.2rem;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+    .arrow-lateral-down {
+      margin-top: 3.2rem;
+      transform: rotate(180deg);
+      cursor: pointer;
+    }
+    ul {
+      width: 100%;
+      .active {
+        background: $white;
+        span {
+          color: $green-color;
+        }
+      }
+      li {
+        padding: 30px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        display: flex;
+        align-items: center;
+        padding-left: 44px;
+        cursor: pointer;
+        span {
+          font-weight: 500;
+          font-size: 1.5rem;
+          line-height: 110%;
+          color: #ffffff;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
